@@ -32,7 +32,7 @@ O projeto foi desenvolvido em **JavaScript**, pois é uma linguagem amplamente u
 2. **Instalação**:
    - Baixe ou clone o repositório:
      ```
-     git clone https://github.com/usuario/repo.git
+     git clone https://github.com/RafaelMunarin/Design-Patterns.git
      ```
    
 3. **Configuração**:
