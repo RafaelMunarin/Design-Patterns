@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Registro e Relatórios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Registro e Relatórios</h1>
+        <p>Desenvolvido por: Rafael Munarin, Daniel Espindola</p>
+    </header>
+
+    <main>
+        <section id="registro-usuarios">
+            <h2>Registro de Usuários</h2>
+            <form id="form-registro">
+                <label for="nome-usuario">Nome do Usuário:</label>
+                <input type="text" id="nome-usuario" name="nome-usuario" required>
+                <button type="submit">Adicionar Usuário</button>
+            </form>
+            <div id="lista-usuarios">
+                <h3>Usuários Registrados:</h3>
+                <ul id="usuarios"></ul>
+            </div>
+        </section>
+
+        <section id="relatorios">
+            <h2>Gerar Relatório</h2>
+            <button id="btn-relatorio">Gerar Relatório Básico</button>
+            <button id="btn-relatorio-cabecalho">Com Cabeçalho</button>
+            <button id="btn-relatorio-rodape">Com Rodapé</button>
+            <button id="btn-relatorio-borda">Relatório Completo</button>
+            <button id="btn-relatorio-cores">Com Cores Aleatórias</button>
+
+            <div id="output-relatorio">
+                <h3>Relatório Gerado:</h3>
+                <pre id="relatorio"></pre>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
